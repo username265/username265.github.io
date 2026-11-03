@@ -1,205 +1,121 @@
+
+# GitHub Pages Engineering Portfolio
+# Jekyll theme: sharu725/online-cv
+
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  position: right
+  about: false
+  education: true
 
-  # Profile information
   name: Kim Younsoo
-  tagline: "Electrical & Electronic Engineering Student"
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  tagline: "Electrical & Electronic Engineering Undergraduate"
+  avatar: profile.png
 
-  # Sidebar links
   email: yyy@dankook.ac.kr
   phone:
-  website: "https://blog.naver.com/identity265" # Include the full website URL, including "http://" or "https://".
-  linkedin: 
+  website: "https://blog.naver.com/identity265"
+  linkedin:
   github: username265
-  telegram: # add your nickname without '@' sign
+  telegram:
   bitbucket:
-  bluesky: 
-  twitter: 
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  bluesky:
+  twitter:
+  stack-overflow:
   codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  goodreads:
+  mastodon:
+  hackerrank:
+  leetcode:
+  pdf:
 
   languages:
     title: Languages
     info:
-    - idiom: Korean
-      level: Native
-
-    - idiom: English
-      level: Conversational
-
-    - idiom: 
-      level: 
-
-#  interests:
-#    title: Interests
-#   info:
-#    - item: Climbing
-#      link:
-
-
-#    - item: Snowboarding
-#      link:
-
-
-#   - item: Cooking
-#      link:
-
+      - idiom: Korean
+        level: Native
+      - idiom: English
+        level: Conversational
 
 career-profile:
   title: About Me
   summary: |
-    I am an undergraduate student majoring in
-    Electrical and Electronic Engineering at
-    Dankook University.
+    I am an undergraduate student majoring in Electrical and Electronic
+    Engineering at Dankook University.
 
-    My academic interests include semiconductor
-    technology, embedded systems, electronic
-    circuits, and control engineering.
+    My interests include embedded systems, digital signal processing,
+    electronic circuits, and hardware-software integration. Through academic
+    projects and hands-on engineering experience, I have developed practical
+    skills in microcontroller programming, sensor interfacing, circuit
+    analysis, and system design.
 
-    
+    I am interested in applying engineering principles to develop reliable
+    and practical technology.
+
 education:
   title: Education
   info:
-  - degree: "B.S. in Electrical and Electronic Engineering"
-    university: "Dankook University"
-    time: 2022 - Present
-#    details: |
-
-
-
-# experiences:
-#  title: Experiences
-#  info:
-#  - role: Lead Developer
-#    time: 2015 - Present
-#    company: Startup Hubs, San Francisco
-#    details: |
-
-
+    - degree: "B.S. in Electrical and Electronic Engineering"
+      university: "Dankook University"
+      time: "2022 - 2028 (Expected)"
 
 certifications:
-  title: Certifications
+  title: "Certifications & Language Scores"
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+    - name: "ADsP (Data Analysis Semi-Professional)"
+      organization: "Korea Data Agency (K-DATA)"
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+    - name: "Computer Specialist (Level 2)"
+      organization: "Korea Chamber of Commerce and Industry"
+
+    - name: "OPIc - IH (Intermediate High)"
+      organization: "ACTFL"
+
+    - name: "TOEIC - 860"
+      organization: "ETS"
 
 projects:
   title: Engineering Projects
-  intro: >
-    Selected academic and engineering projects
-    focusing on embedded systems, electronic
-    circuits, and system integration.
-    
+  intro: >-
+    Selected academic and team projects involving embedded systems,
+    digital signal processing, power system design, and electronic circuits.
+
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    - title: "Multi-Sensor Fire-Response Drone System"
+      tagline: >-
+        Team Leader | Excellence Award (우수상), Advanced Mobility Global
+        Contest 2026. Led the development of a drone-based prototype
+        integrating Pixhawk, ESP32/STM32 microcontrollers, thermal and distance
+        sensors. Worked on sensor control, hardware integration, and
+        Python-based thermal data analysis.
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+    # Temporary DSP entry: replace with the future image-analysis project.
+    - title: "Convolution in MATLAB: From Theory to Implementation"
+      tagline: >-
+        Explored signal convolution through MATLAB-based implementation
+        and visualization, connecting signal-processing theory with
+        computational analysis.
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - title: "Power System Capacity and Cost Design"
+      tagline: >-
+        Developed an academic power-system design for an 840 MVA base load
+        with a 10% reserve margin. Compared generator, transformer, and
+        transmission-line configurations and proposed a 950 MVA generation
+        plan exceeding the 924 MVA capacity requirement.
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-
-
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-
+    - title: "Analog Circuit Characterization and Simulation"
+      tagline: >-
+        Investigated 2N7000 MOSFET current-voltage characteristics and
+        uA741 operational-amplifier circuits, including inverting amplifiers
+        and voltage followers. Used PSpice simulations and laboratory
+        measurements to compare theoretical and experimental behavior.
 
 skills:
-  title: Skills &amp; Proficiency
-
+  title: Technical Skills
   toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
-
+    - name: "Programming: Python, C"
+    - name: "Microcontrollers: ESP32, STM32"
+    - name: "Embedded Development: STM32CubeIDE"
+    - name: "Circuit Simulation: PSpice, NI Multisim"
+    - name: "Digital Logic & HDL: Logisim, Verilog"
+    - name: "Engineering Computing: MATLAB"
 
