@@ -1,7 +1,3 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
   position: right # position of the sidebar : left or right
   about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
@@ -15,14 +11,10 @@ sidebar:
   # Sidebar links
   email: yyy@dankook.ac.kr
   phone:
-  timezone: 
-  citizenship:
   website: "https://blog.naver.com/identity265" # Include the full website URL, including "http://" or "https://".
   linkedin: 
-  xing: 
   github: username265
   telegram: # add your nickname without '@' sign
-  gitlab:
   bitbucket:
   bluesky: 
   twitter: 
@@ -41,7 +33,7 @@ sidebar:
       level: Native
 
     - idiom: English
-      level: proficient
+      level: Conversational
 
     - idiom: 
       level: 
@@ -71,6 +63,8 @@ career-profile:
     My academic interests include semiconductor
     technology, embedded systems, electronic
     circuits, and control engineering.
+
+    
 education:
   title: Education
   info:
@@ -81,46 +75,15 @@ education:
 
 
 
-experiences:
-  title: Experiences
-  info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+# experiences:
+#  title: Experiences
+#  info:
+#  - role: Lead Developer
+#    time: 2015 - Present
+#    company: Startup Hubs, San Francisco
+#    details: |
+
+
 
 certifications:
   title: Certifications
@@ -164,9 +127,12 @@ certifications:
       Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-  title: Projects
+  title: Engineering Projects
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    Selected academic and engineering projects
+    focusing on embedded systems, electronic
+    circuits, and system integration.
+    
   assignments:
   - title: Velocity
     link: "#hook"
@@ -188,22 +154,7 @@ projects:
     link: "#"
     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
   title: Publications
@@ -227,23 +178,7 @@ publications:
     authors: Edgar T. Irons
     conference: "Comm. ACM 4 (1961), 51–55"
 
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
 
-      He is a great employee!
 
 skills:
   title: Skills &amp; Proficiency
@@ -267,5 +202,4 @@ skills:
   - name: Sketch & Photoshop
     level: 60%
 
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+
