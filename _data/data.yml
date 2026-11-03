@@ -9,7 +9,7 @@ sidebar:
 
   name: Kim Younsoo
   tagline: "Electrical & Electronic Engineering Undergraduate"
-  avatar: profile.png
+  avatar: tiffany.jpeg
 
   email: yyy@dankook.ac.kr
   phone:
@@ -48,8 +48,6 @@ career-profile:
     skills in microcontroller programming, sensor interfacing, circuit
     analysis, and system design.
 
-    I am interested in applying engineering principles to develop reliable
-    and practical technology.
 
 education:
   title: Education
@@ -61,17 +59,17 @@ education:
 certifications:
   title: "Certifications & Language Scores"
   list:
-    - name: "ADsP (Data Analysis Semi-Professional)"
-      organization: "Korea Data Agency (K-DATA)"
-
-    - name: "Computer Specialist (Level 2)"
-      organization: "Korea Chamber of Commerce and Industry"
-
-    - name: "OPIc - IH (Intermediate High)"
+    - name: "OPIc - IH"
       organization: "ACTFL"
 
     - name: "TOEIC - 860"
       organization: "ETS"
+      
+    - name: "ADsP (Data Analysis Semi-Professional)"
+      organization: "Korea Data Agency"
+
+    - name: "Computer Specialist"
+      organization: "Korea Chamber of Commerce and Industry"
 
 projects:
   title: Engineering Projects
@@ -113,9 +111,9 @@ skills:
   title: Technical Skills
   toolset:
     - name: "Programming: Python, C"
+    - name: "Circuit Simulation: PSpice, NI Multisim"
     - name: "Microcontrollers: ESP32, STM32"
     - name: "Embedded Development: STM32CubeIDE"
-    - name: "Circuit Simulation: PSpice, NI Multisim"
     - name: "Digital Logic & HDL: Logisim, Verilog"
     - name: "Engineering Computing: MATLAB"
 
