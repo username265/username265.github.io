@@ -14,7 +14,7 @@ sidebar:
   email: yyy@dankook.ac.kr
   phone:
   website: "https://blog.naver.com/identity265"
-  linkedin:
+  linkedin: younsoo-k-18253b3b2
   github: username265
   telegram:
   bitbucket:
@@ -36,17 +36,16 @@ sidebar:
       - idiom: English
         level: Conversational
 
+
 career-profile:
   title: About Me
   summary: |
-    I am an undergraduate student majoring in Electrical and Electronic
-    Engineering at Dankook University.
+    I am an undergraduate student majoring in Electrical and Electronic Engineering at Dankook University.
 
-    My interests include embedded systems, digital signal processing,
-    electronic circuits, and hardware-software integration. Through academic
-    projects and hands-on engineering experience, I have developed practical
-    skills in microcontroller programming, sensor interfacing, circuit
-    analysis, and system design.
+    My interests include electronic circuits, embedded systems, sensor technologies, data analysis, and semiconductor manufacturing processes. Through academic coursework and engineering projects, I have gained hands-on experience in hardware development, sensor integration, and signal processing.
+
+    I aim to continue developing my technical expertise and become an engineer capable of solving complex problems and improving system reliability.
+
 
 
 education:
@@ -71,49 +70,39 @@ certifications:
     - name: "Computer Specialist"
       organization: "Korea Chamber of Commerce and Industry"
 
+
 projects:
   title: Engineering Projects
-  intro: >-
-    Selected academic and team projects involving embedded systems,
-    digital signal processing, power system design, and electronic circuits.
 
   assignments:
-    - title: "Multi-Sensor Fire-Response Drone System"
+    - title: "Development of a Multi-Sensor-Based Glass-Breaking Drone<br>"
       tagline: >-
-        Team Leader | Excellence Award (우수상), Advanced Mobility Global
-        Contest 2026. Led the development of a drone-based prototype
-        integrating Pixhawk, ESP32/STM32 microcontrollers, thermal and distance
-        sensors. Worked on sensor control, hardware integration, and
-        Python-based thermal data analysis.
+        Developed a multi-sensor-based glass-breaking drone to support firefighting operations in high-rise buildings.
+        Implemented an environmental sensing system using thermal imaging and distance sensors, and improved flight stability by integrating Optical Flow and LiDAR sensors.
+        Designed a glass-breaking mechanism inspired by the striking motion of mantis shrimp.
+        As team leader, coordinated system integration and performance testing, and received an Excellence Award at the 2026 Advanced Mobility Global Contest.
 
-    # Temporary DSP entry: replace with the future image-analysis project.
-    - title: "Convolution in MATLAB: From Theory to Implementation"
-      tagline: >-
-        Explored signal convolution through MATLAB-based implementation
-        and visualization, connecting signal-processing theory with
-        computational analysis.
 
-    - title: "Power System Capacity and Cost Design"
+    - title: "FFT-Based Analysis and FIR Filtering of Ultrasound RF Signals<br>"
       tagline: >-
-        Developed an academic power-system design for an 840 MVA base load
-        with a 10% reserve margin. Compared generator, transformer, and
-        transmission-line configurations and proposed a 950 MVA generation
-        plan exceeding the 924 MVA capacity requirement.
+        Analyzed ultrasound RF data using MATLAB and improved image quality through digital filtering.
+        Performed FFT-based frequency analysis and designed a 50th-order FIR bandpass filter and a 100th-order FIR bandstop filter.
+        Applied the filters to individual RF channels and reconstructed ultrasound images using envelope detection and log compression to evaluate noise reduction performance.
 
-    - title: "Analog Circuit Characterization and Simulation"
+
+    - title: "Infrared Thermal Data Processing and Visualization<br>"
       tagline: >-
-        Investigated 2N7000 MOSFET current-voltage characteristics and
-        uA741 operational-amplifier circuits, including inverting amplifiers
-        and voltage followers. Used PSpice simulations and laboratory
-        measurements to compare theoretical and experimental behavior.
+        Developed a thermal data acquisition system using an MLX90640 infrared thermal sensor and an STM32 microcontroller, transmitting temperature measurements to a PC along with frame IDs and timestamps.
+        Used Python to store the collected data in CSV files and visualize temperature distributions as heatmaps.
+        Analyzed temperature statistics and heat source locations to compare thermal characteristics under different measurement conditions.
+
+
+
 
 skills:
   title: Technical Skills
   toolset:
-    - name: "Programming: Python, C"
-    - name: "Circuit Simulation: PSpice, NI Multisim"
-    - name: "Microcontrollers: ESP32, STM32"
-    - name: "Embedded Development: STM32CubeIDE"
-    - name: "Digital Logic & HDL: Logisim, Verilog"
-    - name: "Engineering Computing: MATLAB"
+    - name: "Language: C/C++, Python, MATLAB, Verilog"
+    - name: "Circuit / Simulation: PSpice, Multisim, Logisim"
+
 
